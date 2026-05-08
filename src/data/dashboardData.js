@@ -1,0 +1,30 @@
+export const navigationItems = [
+  { path: "/", label: "Dashboard", icon: "DB" },
+  { path: "/payin-link", label: "Payin Link", icon: "PL" },
+  { path: "/payin-status", label: "Payin Status", icon: "PS" },
+  { path: "/payout-request", label: "Payout Request", icon: "PO" },
+  { path: "/settlement-report", label: "Settlement report", icon: "SR" },
+  { path: "/wallet-report", label: "Wallet report", icon: "WR" },
+  { path: "/merchant-onboarding", label: "Merchant Onboarding", icon: "MO" },
+  { path: "/merchant-directory", label: "Merchant Directory", icon: "MD" },
+  { path: "/gateway-routing", label: "Gateway Routing", icon: "GR" },
+  { path: "/acquirer-control", label: "Acquirer Control", icon: "AC" },
+  { path: "/callback-monitor", label: "Callback Monitor", icon: "CM" },
+  { path: "/risk-compliance", label: "Risk & Compliance", icon: "RC" },
+  { path: "/reserve-control", label: "Reserve Control", icon: "RV" },
+  { path: "/dispute-center", label: "Dispute Center", icon: "DC" },
+  { path: "/reconciliation-hub", label: "Reconciliation Hub", icon: "RH" },
+  { path: "/manage-profile", label: "Manage Profile", icon: "MP" },
+  { path: "/change-password", label: "Change Password", icon: "CP" },
+  { path: "/api-documents", label: "Api Documents", icon: "API" },
+];
+
+export const payoutFormBanks = [
+  "Select a Bank",
+  "HDFC Bank",
+  "Kotak Mahindra Bank",
+  "State Bank of India",
+  "Punjab National Bank",
+  "Indian Bank",
+  "Axis Bank",
+];
