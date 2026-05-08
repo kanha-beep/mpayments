@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:4000";
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || "http://localhost:4000").replace(/\/+$/, "");
 const TOKEN_KEY = "dashboard_session_token";
 const API_TOKEN_KEY = "dashboard_api_token";
 
