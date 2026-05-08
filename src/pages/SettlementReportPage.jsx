@@ -45,11 +45,11 @@ export default function SettlementReportPage() {
           </label>
           <label className="flex flex-col gap-2 text-sm font-semibold text-slate-700">
             <span>From</span>
-            <input className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none" readOnly type="text" value="06-04-2026" />
+            <input className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none" placeholder="dd-mm-yyyy" readOnly type="text" value="" />
           </label>
           <label className="flex flex-col gap-2 text-sm font-semibold text-slate-700">
             <span>To</span>
-            <input className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none" readOnly type="text" value="06-04-2026" />
+            <input className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none" placeholder="dd-mm-yyyy" readOnly type="text" value="" />
           </label>
         </div>
       </section>

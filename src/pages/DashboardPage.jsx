@@ -34,8 +34,9 @@ export default function DashboardPage() {
         <input
           className="min-w-0 flex-1 rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-600 outline-none"
           readOnly
+          placeholder="Select date range"
           type="text"
-          value="2025-01-01 - 2026-04-06"
+          value=""
         />
         <button
           className="rounded-xl bg-[#2b77ff] px-4 py-3 font-semibold text-white"
