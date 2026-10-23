@@ -30,7 +30,7 @@ export default function Sidebar() {
           OS
         </div>
         <div className="text-white">
-          <div className="text-[22px] font-extrabold leading-none">MpaymentsPay</div>
+          <div className="text-[22px] font-extrabold leading-none">Testing Dashboard</div>
           <div className="mt-1 text-sm text-white/95">Business Partner</div>
         </div>
       </div>

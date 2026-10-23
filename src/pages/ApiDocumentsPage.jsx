@@ -241,7 +241,7 @@ export default function ApiDocumentsPage() {
           </span>
         </div>
         <p className="mt-3 text-white/80">
-          {doc.productName || "MpaymentsPay"} exposes client-facing partner APIs. These are backend routes, not physical `.php` files on disk.
+          {doc.productName || "Testing Dashboard"} exposes client-facing partner APIs. These are backend routes, not physical `.php` files on disk.
         </p>
         <p className="mt-2 text-sm text-white/75">{doc.configurationNote}</p>
         <div className="mt-4 grid gap-4 lg:grid-cols-[minmax(0,1fr)_220px]">
@@ -256,7 +256,7 @@ export default function ApiDocumentsPage() {
         <div className="flex flex-col gap-1">
           <h2 className="text-xl font-extrabold text-slate-700">Your Forwarding API</h2>
           <p className="text-sm text-slate-500">
-            Third parties should call these MpaymentsPay endpoints. Your backend then forwards the request to BharatPay internally.
+            Third parties should call these Testing Dashboard endpoints. Your backend then forwards the request to BharatPay internally.
           </p>
         </div>
         <div className="grid gap-4 md:grid-cols-2">
